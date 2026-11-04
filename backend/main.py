@@ -3,7 +3,7 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 
 from datetime import datetime, timedelta, timezone
-
+from fastapi.middleware.cors import CORSMiddleware
 import json
 import hashlib
 import hmac
@@ -448,12 +448,10 @@ app.add_middleware(
     CORSMiddleware,
 
     allow_origins=[
-
-        "http://localhost:5173",
-
-        "http://127.0.0.1:5173",
-
-    ],
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "https://teztaom1.netlify.app",
+                ],
 
     allow_credentials=True,
 
