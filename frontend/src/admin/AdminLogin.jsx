@@ -2,7 +2,7 @@ import "./admin-login.css";
 import { useState } from "react";
 import { Eye, EyeOff, ArrowRight, LoaderCircle } from "lucide-react";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://teztaom-backend.onrender.com";
 
 export default function AdminLogin({ onLogin }) {
   const [username, setUsername] = useState("admin");

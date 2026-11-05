@@ -10,7 +10,7 @@ import AdminDashboard from "./admin/AdminDashboard.jsx";
 import CourierLogin from "./courier/CourierLogin.jsx";
 import CourierDashboard from "./courier/CourierDashboard.jsx";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://teztaom-backend.onrender.com";
 
 function AdminRoot() {
   const [token, setToken] = useState(

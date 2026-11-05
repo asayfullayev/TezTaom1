@@ -15,7 +15,7 @@ import {
   Navigation,
 } from "lucide-react";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://teztaom-backend.onrender.com";
 
 const STATUSES = [
   { value: "Qabul qilindi", label: "Qabul qilish" },
