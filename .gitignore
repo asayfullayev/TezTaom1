@@ -17,3 +17,28 @@ venv/
 
 # Database
 *.db
+# Node.js
+node_modules/
+**/node_modules/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+**/.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+**/venv/
+
+# Database
+*.db
+
+
+# SQLite database
+*.db
+
+# SQLite database
+*.db
